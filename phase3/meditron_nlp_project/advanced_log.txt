@@ -1,0 +1,11 @@
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\hub.py:123: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+W1128 21:27:15.263346 37064 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+Loading microsoft/BioGPT on CPU...
+Error loading model: Unable to load weights from pytorch checkpoint file for 'E:\hf_cache\models--microsoft--BioGPT\snapshots\eb0d815e95434dc9e3b78f464e52b899bee7d923\pytorch_model.bin' at 'E:\hf_cache\models--microsoft--BioGPT\snapshots\eb0d815e95434dc9e3b78f464e52b899bee7d923\pytorch_model.bin'. If you tried to load a PyTorch model from a TF 2.0 checkpoint, please set from_tf=True.

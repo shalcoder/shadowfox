@@ -1,0 +1,14 @@
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\hub.py:123: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+W1127 15:21:49.906976 2828 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+torch 2.8.0+cpu
+cuda available False
+Loading model...
+Error loading model: No GPU found. A GPU is needed for quantization.

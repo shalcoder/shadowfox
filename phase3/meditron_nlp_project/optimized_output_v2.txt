@@ -1,0 +1,25 @@
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\hub.py:123: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+W1128 19:37:17.686812 14356 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:309: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+torch 2.8.0+cpu
+cuda available False
+Loading model on CPU...
+Model loaded
+Testing generation...
+Acute pancreatitis is characterized by symptoms such as abdominal pain, nausea, vomiting, and diarrhea.
+Patient Case: A 67-year-old man presents with sudden severe chest pain radiating to the back. BP 90 / 60, sweating, tearing pain. Differential diagnosis includes acute coronary syndrome, acute pulmonary embolism, and acute myocardial infarction.
+Summarize the following clinical note in 3 bullets: Patient: Male, 67 years Presentation: Sudden-onset severe chest pain radiating to the back. Profuse sweating. Blood pressure: 90 / 60 mmHg. History: Hypertension for 10 years. Smoker. Exam: Cold peripheries, tachycardia 110 / min. Investigations to consider: ECG, chest X-ray, serum troponin, CT aortogram. Notes: Use this clinical note as a long-context input for summarization and differential diagnosis tests.
+Running MCQ evaluation...
+Accuracy: 0.5
+Saved outputs to E:\shadowfox\phase3\meditron_nlp_project\results\outputs
+Running LangChain demo...
+Question: What is the mechanism of action of Aspirin?
+
+Answer: Let's think step by step.
+Analysis complete.

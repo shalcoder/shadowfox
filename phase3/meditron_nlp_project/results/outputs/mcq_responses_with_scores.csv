@@ -1,0 +1,11 @@
+question,answer,response,len,correct
+What is the first-line treatment for anaphylaxis?,Epinephrine,Question: What is the first-line treatment for anaphylaxis? Answer: The role of epinephrine autoinjectors.,106,1
+Which vitamin deficiency causes scurvy?,Vitamin C,Question: Which vitamin deficiency causes scurvy? Answer: Vitamin C deficiency is the most common cause of scurvy in children.,126,1
+What is the medical term for high blood pressure?,Hypertension,Question: What is the medical term for high blood pressure? Answer: The term is not a medical term.,99,0
+Which organ produces insulin?,Pancreas,Question: Which organ produces insulin? Answer: The pancreas is the most likely source of insulin in the human body.,116,1
+What is the most common cause of community-acquired pneumonia?,Streptococcus pneumoniae,Question: What is the most common cause of community-acquired pneumonia? Answer: The most common cause is community-acquired pneumonia.,135,0
+What is the antidote for opioid overdose?,Naloxone,Question: What is the antidote for opioid overdose? Answer: The role of naloxone.,81,1
+Which blood type is the universal donor?,O negative,Question: Which blood type is the universal donor? Answer: The universal donor is the universal donor.,102,0
+What is the main function of red blood cells?,Oxygen transport,Question: What is the main function of red blood cells? Answer: Red blood cells are not only a source of oxygen but also a source of energy.,140,0
+Which bone is the longest in the human body?,Femur,Question: Which bone is the longest in the human body? Answer: The longest bone in the human body is the femur.,111,1
+What is the normal range for adult resting heart rate?,60-100 bpm,Question: What is the normal range for adult resting heart rate? Answer: The normal range is not a fixed value.,111,0

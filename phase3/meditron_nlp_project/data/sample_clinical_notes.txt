@@ -1,0 +1,8 @@
+Patient: Male, 67 years
+Presentation: Sudden-onset severe chest pain radiating to the back. Profuse sweating. Blood pressure: 90/60 mmHg.
+History: Hypertension for 10 years. Smoker.
+Exam: Cold peripheries, tachycardia 110/min.
+Investigations to consider: ECG, chest X-ray, serum troponin, CT aortogram.
+
+
+Notes: Use this clinical note as a long-context input for summarization and differential diagnosis tests.

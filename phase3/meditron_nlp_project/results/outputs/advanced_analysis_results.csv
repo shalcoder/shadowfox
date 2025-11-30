@@ -1,0 +1,11 @@
+Prompt,Expected,Generated,Full_Text,Perplexity,Correct
+The first-line treatment for anaphylaxis is,Epinephrine,"epinephrine, which is available in both injectable and oral forms","The first-line treatment for anaphylaxis is epinephrine, which is available in both injectable and oral forms.",6.45,True
+Deficiency of Vitamin C results in the disease known as,Scurvy,scurvy,Deficiency of Vitamin C results in the disease known as scurvy.,18.85,True
+The medical term for high blood pressure is,Hypertension,"""hypertension","The medical term for high blood pressure is ""hypertension.""",27.19,True
+Insulin is produced by the,Pancreas,pancreatic beta-cell and is a key regulator of glucose homeostasis,Insulin is produced by the pancreatic beta-cell and is a key regulator of glucose homeostasis.,5.69,True
+The most common cause of community-acquired pneumonia is,Streptococcus pneumoniae,Streptococcus pneumoniae,The most common cause of community-acquired pneumonia is Streptococcus pneumoniae.,6.85,True
+The antidote for opioid overdose is,Naloxone,naloxone,The antidote for opioid overdose is naloxone.,22.33,True
+The universal blood donor type is blood group,O negative,"A, B, and O","The universal blood donor type is blood group A, B, and O.",73.22,False
+The main function of red blood cells is,Oxygen transport,to transport oxygen to tissues,The main function of red blood cells is to transport oxygen to tissues.,7.83,True
+The longest bone in the human body is the leg bone called the,Femur,tibia,The longest bone in the human body is the leg bone called the tibia.,27.59,False
+The normal range for adult resting heart rate is between,60-100 bpm,70 and 80 beats / min,The normal range for adult resting heart rate is between 70 and 80 beats / min.,9.04,False

@@ -1,0 +1,63 @@
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\hub.py:123: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\import_utils.py", line 1382, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+  File "C:\Program Files\Python39\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\pipelines\__init__.py", line 49, in <module>
+    from .audio_classification import AudioClassificationPipeline
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\pipelines\audio_classification.py", line 21, in <module>
+    from .base import PIPELINE_INIT_ARGS, Pipeline
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\pipelines\base.py", line 34, in <module>
+    from ..modelcard import ModelCard
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\modelcard.py", line 48, in <module>
+    from .training_args import ParallelMode
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\training_args.py", line 69, in <module>
+    from accelerate.state import AcceleratorState, PartialState
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\accelerate\__init__.py", line 3, in <module>
+    from .accelerator import Accelerator
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\accelerate\accelerator.py", line 35, in <module>
+    from .checkpointing import load_accelerator_state, load_custom_state, save_accelerator_state, save_custom_state
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\accelerate\checkpointing.py", line 24, in <module>
+    from .utils import (
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\accelerate\utils\__init__.py", line 149, in <module>
+    from .fsdp_utils import load_fsdp_model, load_fsdp_optimizer, save_fsdp_model, save_fsdp_optimizer
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\accelerate\utils\fsdp_utils.py", line 25, in <module>
+    import torch.distributed.checkpoint as dist_cp
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\torch\distributed\checkpoint\__init__.py", line 15, in <module>
+    from .state_dict_saver import async_save, save, save_state_dict
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\torch\distributed\checkpoint\state_dict_saver.py", line 17, in <module>
+    from torch.distributed.checkpoint._async_process_executor import (
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\torch\distributed\checkpoint\_async_process_executor.py", line 19, in <module>
+    from torch.distributed.elastic.agent.server.api import _get_fq_hostname
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\torch\distributed\elastic\agent\server\__init__.py", line 32, in <module>
+    from .api import (  # noqa: F401
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\torch\distributed\elastic\agent\server\api.py", line 23, in <module>
+    import torch.distributed.elastic.rendezvous as rdzv
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\torch\distributed\elastic\rendezvous\__init__.py", line 142, in <module>
+    from .registry import _register_default_handlers, _register_out_of_tree_handlers
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\torch\distributed\elastic\rendezvous\registry.py", line 19, in <module>
+    from importlib_metadata import entry_points
+ModuleNotFoundError: No module named 'importlib_metadata'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "e:\shadowfox\phase3\meditron_nlp_project\scripts\run_analysis.py", line 6, in <module>
+    from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, pipeline
+  File "<frozen importlib._bootstrap>", line 1055, in _handle_fromlist
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\import_utils.py", line 1372, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\transformers\utils\import_utils.py", line 1384, in _get_module
+    raise RuntimeError(
+RuntimeError: Failed to import transformers.pipelines because of the following error (look up to see its traceback):
+No module named 'importlib_metadata'

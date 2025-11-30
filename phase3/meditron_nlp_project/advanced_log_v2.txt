@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "E:\shadowfox\phase3\meditron_nlp_project\scripts\run_advanced_analysis.py", line 6, in <module>
+    import seaborn as sns
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\seaborn\__init__.py", line 5, in <module>
+    from .relational import *  # noqa: F401,F403
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\seaborn\relational.py", line 29, in <module>
+    _relational_narrative = DocstringComponents(dict(
+  File "E:\shadowfox\phase3\meditron_nlp_project\venv\lib\site-packages\seaborn\_docstrings.py", line 15, in __init__
+    m = re.match(self.regexp, val)
+  File "C:\Program Files\Python39\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+MemoryError
